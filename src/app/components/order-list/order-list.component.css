@@ -1,0 +1,21 @@
+.sidebar {
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    font-family: "Roboto", sans-serif;
+    background: #fdfdfd;
+    width: 200px;
+    overflow: hidden;
+    display: inline-block;
+    height: calc(100vh - 0px);
+    position: fixed;
+    top: 0px;
+}
+
+section.content-center {
+margin: 100px 15px 0 15px;
+-moz-transition: 0.5s;
+-o-transition: 0.5s;
+-webkit-transition: 0.5s;
+transition: 0.5s; }
