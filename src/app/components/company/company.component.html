@@ -31,78 +31,83 @@
     </div> -->
     <!-- #END# Page Loader -->
     
-    <nav class="navbar" style="border-width: 30px; box-shadow: 0px;">
-        <div >
-        <div class="container-fluid" style="border-width: 30px; box-shadow:0px;">
-            <div class="navbar-header" style="border-width: 30px; box-shadow: 0px;">
-                <a href="javascript:void(0);" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false"></a>
-                <a href="javascript:void(0);" class="bars" style="color: black;"></a>
-            </div>
-        </div>
-    </div>
-    </nav>
+    <a href="javascript:void(0);" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false" style="color: black; z-index: 999;"></a>
+    <a href="javascript:void(0);" class="bars" style="content: ' \25CF'; color: white;  position: relative !important; z-index: 999;"></a>
     <section>
         <!-- Left Sidebar -->
         
         <aside id="leftsidebar" class="sidebar">
             <!-- User Info -->
             <div class="user-info">
-                <div class="image">
-                    <img src="assets/images/user.png" width="48" height="48" alt="User" />
+                <div class="image" style="margin-bottom: 0px; float: right;">
+                    <img src="../assets/images/new-images/profile-male.jpg" width="78" height="78" alt="User" />
                 </div>
-                <div class="info-container">
-                    <div class="name" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">John Doe</div>
-                    <div class="email">john.doe@example.com</div>
+                <div class="info-container" style="margin-top:50px; margin-right: 0px !important;">
+                    <div class="name" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Michael C.</div>
                 </div>
             </div>
             <!-- #User Info -->
-            <!-- Menu -->
-            <div class="menu">
+            <!-- Menu --> 
+            <div class="menu" style="background-color: rgb(43, 43, 43);">
                 <ul class="list">
                     <li class="header">MAIN NAVIGATION</li>
-                    <li>
+                    <li class="navbar-li-class">
                         <a href="../../index.html">
                             <i class="material-icons">home</i>
-                            <span>Home</span>
+                            <span style="" >Home</span>
                         </a>
                     </li>
-                    <li>
+                    <li class="navbar-li-class">
                         <a href="../../pages/typography.html">
-                            <i class="material-icons">text_fields</i>
+                            <i class="material-icons">person</i>
                             <span>Profile</span>
                         </a>
                     </li>
-                    <li>
+                    <li class="navbar-li-class">
                         <a href="../../pages/helper-classes.html">
-                            <i class="material-icons">layers</i>
+                            <i class="material-icons">analytics</i>
                             <span>Dashboard</span>
                         </a>
                     </li>
-                    <li>
+                    <li class="navbar-li-class">
                         <a href="../../pages/helper-classes.html">
-                            <i class="material-icons">layers</i>
+                            <i class="material-icons">bookmark</i>
                             <span>Wishlist</span>
                         </a>
                     </li>
-                    <li>
+                    <li class="navbar-li-class">
                         <a href="../../pages/helper-classes.html">
-                            <i class="material-icons">layers</i>
+                            <i class="material-icons">logout</i>
                             <span>Logout</span>
                         </a>
                     </li>
+                    <li class="header">HELP</li>
+                    <li class="navbar-li-class">
+                        <a href="../../pages/typography.html">
+                            <i class="material-icons">person</i>
+                            <span>FAQs</span>
+                        </a>
+                    </li>
+                    <li class="navbar-li-class">
+                        <a href="../../index.html">
+                            <i class="material-icons">question_answer</i>
+                            <span style="" >Contact Us</span>
+                        </a>
+                    </li>
+                    
                     
                 </ul>
             </div>
             <!-- #Menu -->
             <!-- Footer -->
-            <div class="legal">
-                <div class="copyright">
+            <!-- <div class="legal">
+                <div class="copyright" style="color: white;">
                     &copy; 2021-2022 <a href="javascript:void(0);">Stock Trading App</a>.
                 </div>
                 <div class="version">
                     <b>Version: </b> 1.0.5
                 </div>
-            </div>
+            </div> -->
             <!-- #Footer -->
         </aside>
         <!-- #END# Left Sidebar -->
@@ -114,39 +119,17 @@
             <div class="row clearfix">
                 <!-- Line Chart -->
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" style="width: 60%;">
-                    <div class="card" style="padding-left: 15px; padding-top: 2px; padding-bottom: 10px;">
+                    <div class="card" style="padding-left: 15px; padding-top: 10px; padding-bottom: 10px;">
                         <h2>Company Name</h2>
                     </div>
                     <!-- Line Chart -->
-                    <div class="card">
-                        <!-- <div class="header">
-                            <h2>LINE CHART</h2>
-                            <ul class="header-dropdown m-r--5">
-                                <li class="dropdown">
-                                    <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                                        <span class="chart chart-line"><canvas width="60" height="45" style="display: inline-block; width: 60px; height: 45px; vertical-align: top;"></canvas></span>
-                                    </a>
-                                    <ul class="dropdown-menu pull-right">
-                                        <li><a href="javascript:void(0);">Action</a></li>
-                                        <li><a href="javascript:void(0);">Another action</a></li>
-                                        <li><a href="javascript:void(0);">Something else here</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="body">
-                            <div class="sparkline" style="overflow: scroll;" data-type="line" data-spot-Radius="3" data-highlight-Spot-Color="rgb(233, 30, 99)" data-highlight-Line-Color="#222"
-                                 data-min-Spot-Color="rgb(233, 30, 99)" data-max-Spot-Color="rgb(0, 150, 136)" data-spot-Color="rgb(0, 188, 212)"
-                                 data-offset="90" data-width="100%" data-height="150px" data-line-Width="2" data-line-Color="rgb(0, 188, 212)"
-                                 data-fill-Color="rgba(0, 188, 212, 0.3)">
-                                6,4,7,8,4,3,2,2,5,6,7,4,1,5,7,9,9,8,7,6
-                            </div>
-                        </div> -->
+                    <div class="card" style="padding:4%;">
+                        
                         <app-chart></app-chart>
 
                     </div>
-                    <div class="card" style="padding-left: 15px; padding-top: 2px; padding-bottom: 10px;">
-                        <h2>Price-Sumarry</h2>
+                    <div class="card" style="padding-left: 15px; padding-top: 2%; padding-bottom: 10px;">
+                        <h2>Price-Summary</h2>
                         <label>Today's High</label>
                         <span> </span>
                         <label>Today's Low</label>
@@ -187,7 +170,7 @@
                                     </ul>
                                     <div class="tab-content">
                                         <div role="tabpanel" class="tab-pane fade in active" id="home">
-                                            <h4 style=" margin-left: 38%;">Sell Stocks</h4>
+                                            <h4 style="margin-left: 40%; font-size:18px; font-family: Roboto, 'Helvetica Neue', sans-serif;">Sell Stocks</h4>
                                             <div class="body" style="width: 100%;">
                                                 <form id="sell" method="POST" novalidate="novalidate">
                                                     <div *ngIf="errorMsg" class="alert alert-danger"> 
@@ -225,14 +208,14 @@
                                                     </div>
                                                     <div class="row">
                                                         <div class="">
-                                                            <button class="btn btn-block bg-pink waves-effect" (click)="sell()" type="submit">Proceed</button>
+                                                            <button class="btn btn-block waves-effect proceed" (click)="sell()" type="submit" style="">Proceed</button>
                                                         </div>
                                                     </div>
                                                 </form>
                                             </div>
                                         </div>
                                         <div role="tabpane2" class="tab-pane fade" id="profile">
-                                            <h4 style=" margin-left: 38%;">Buy Stocks</h4>
+                                            <h1 style="margin-left: 40%; font-size:18px; font-family: Roboto, 'Helvetica Neue', sans-serif;">Buy Stocks</h1>
                                             <div class="body" style="width: 100%;">
                                                 <form id="buy" method="POST" novalidate="novalidate">
                                                     <div class="row" style="margin-bottom: 5px;">
@@ -267,7 +250,7 @@
                                                     </div>
                                                     <div class="row">
                                                         <div class="">
-                                                            <button class="btn btn-block bg-pink waves-effect" (click)="buy()" type="submit">Proceed</button>
+                                                            <button class="btn btn-block waves-effect proceed" (click)="buy()" type="submit">Proceed</button>
                                                         </div>
                                                     </div>
                                                 </form>
@@ -284,7 +267,7 @@
             <div class="row clearfix">
                 <!-- Line Chart -->
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" style="width: 100%;">
-                    <div class="card" style="padding-left: 15px; padding-top: 2px; padding-bottom: 10px;">
+                    <div class="card" style="padding-left: 15px; padding-top: 2%; padding-bottom: 10px;">
                         <h2 >Company Essentials</h2>
 
                         <label> Market Cap </label>

@@ -1,77 +1,83 @@
 <div style="top: 0px;">
     
-    <nav class="navbar" style="border-width: 30px; box-shadow: 0px;">
-        <div >
-        <div class="container-fluid" style="border-width: 30px; box-shadow:0px;">
-            <div class="navbar-header" style="border-width: 30px; box-shadow: 0px;">
-                <a href="javascript:void(0);" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false"></a>
-                <a href="javascript:void(0);" class="bars" style="color: black;"></a>
-            </div>
-        </div>
-    </div>
-    </nav>
+    
+    <a href="javascript:void(0);" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false" style="color: black; z-index: 999;"></a>
+    <a href="javascript:void(0);" class="bars" style="content: ' \25CF'; color: white;  position: relative !important; z-index: 999;"></a>
     <section>
         <!-- Left Sidebar -->
         
         <aside id="leftsidebar" class="sidebar">
             <!-- User Info -->
             <div class="user-info">
-                <div class="image">
-                    <img src="../../../assets/images/user.png" width="48" height="48" alt="User" />
+                <div class="image" style="margin-bottom: 0px; float: right;">
+                    <img src="../assets/images/new-images/profile-male.jpg" width="78" height="78" alt="User" />
                 </div>
-                <div class="info-container">
-                    <div class="name" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">John Doe</div>
-                    <div class="email">john.doe@example.com</div>
+                <div class="info-container" style="margin-top:50px; margin-right: 0px !important;">
+                    <div class="name" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Michael C.</div>
                 </div>
             </div>
             <!-- #User Info -->
-            <!-- Menu -->
-            <div class="menu">
+            <!-- Menu --> 
+            <div class="menu" style="background-color: rgb(43, 43, 43);">
                 <ul class="list">
                     <li class="header">MAIN NAVIGATION</li>
-                    <li>
-                        <a routerLink="/">
+                    <li class="navbar-li-class">
+                        <a href="../../index.html">
                             <i class="material-icons">home</i>
-                            <span>Home</span>
+                            <span style="" >Home</span>
                         </a>
                     </li>
-                    <li>
-                        <a routerLink="profile">
-                            <i class="material-icons">text_fields</i>
+                    <li class="navbar-li-class">
+                        <a href="../../pages/typography.html">
+                            <i class="material-icons">person</i>
                             <span>Profile</span>
                         </a>
                     </li>
-                    <li>
-                        <a routerLink="/dashboard">
-                            <i class="material-icons">layers</i>
+                    <li class="navbar-li-class">
+                        <a href="../../pages/helper-classes.html">
+                            <i class="material-icons">analytics</i>
                             <span>Dashboard</span>
                         </a>
                     </li>
-                    <li>
+                    <li class="navbar-li-class">
                         <a href="../../pages/helper-classes.html">
-                            <i class="material-icons">layers</i>
+                            <i class="material-icons">bookmark</i>
                             <span>Wishlist</span>
                         </a>
                     </li>
-                    <li>
+                    <li class="navbar-li-class">
                         <a href="../../pages/helper-classes.html">
-                            <i class="material-icons">layers</i>
+                            <i class="material-icons">logout</i>
                             <span>Logout</span>
                         </a>
                     </li>
+                    <li class="header">HELP</li>
+                    <li class="navbar-li-class">
+                        <a href="../../pages/typography.html">
+                            <i class="material-icons">person</i>
+                            <span>FAQs</span>
+                        </a>
+                    </li>
+                    <li class="navbar-li-class">
+                        <a href="../../index.html">
+                            <i class="material-icons">question_answer</i>
+                            <span style="" >Contact Us</span>
+                        </a>
+                    </li>
+                    
                     
                 </ul>
             </div>
             <!-- #Menu -->
             <!-- Footer -->
-            <div class="legal">
-                <div class="copyright">
+            <!-- <div class="legal">
+                <div class="copyright" style="color: white;">
                     &copy; 2021-2022 <a href="javascript:void(0);">Stock Trading App</a>.
                 </div>
                 <div class="version">
                     <b>Version: </b> 1.0.5
                 </div>
-            </div>
+            </div> -->
             <!-- #Footer -->
         </aside>
         <!-- #END# Left Sidebar -->
@@ -88,11 +94,10 @@
                         <div class="profile-header">&nbsp;</div>
                         <div class="profile-body">
                             <div class="image-area">
-                                <img src="../../images/user-lg.jpg" alt="AdminBSB - Profile Image" />
+                                <img src="../assets/images/new-images/profile-male.jpg" style="object-fit: contain;" width="250px" alt="AdminBSB - Profile Image" />
                             </div>
                             <div class="content-area">
-                                <h3>Marc K. Hammond</h3>
-                                <!-- <p>User Id:01</p> -->
+                                <h3>Michael C.</h3>
                                 <p>User Id:01</p>
                             </div>
                         </div>
@@ -100,7 +105,7 @@
                             <ul>
                                 <li>
                                     <span>Email Address</span>
-                                    <span>marck@example.com</span>
+                                    <span>michael@example.com</span>
                                 </li>
                                 <li>
                                     <span>Contact No.</span>
@@ -112,10 +117,7 @@
                                 </li>
                                 <li>
                                     <span>Address</span>
-                                    <span>24/1 , Random street <b>London,Great Britain</b>
-                                    
-                                    </span>
-                                <!-- </b>015100</b> -->
+                                    <span>24/1 , Random street, Mumbai, India &nbsp; PIN: 015100 &nbsp; </span>
                                 </li>
                                 <li>
                                     <span>Date Of Birth</span>
